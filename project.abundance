@@ -48,6 +48,46 @@
       ]
     },
     {
+      "atomType": "Extrude",
+      "x": 0.3,
+      "y": 0.8,
+      "uniqueID": "id-111",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3,
+      "y": 0.9,
+      "uniqueID": "id-115",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 6
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
       "atomType": "Rectangle",
       "x": 0.1,
       "y": 0.5,
@@ -60,6 +100,56 @@
         {
           "name": "y length",
           "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4,
+      "y": 0.8,
+      "uniqueID": "id-121",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -8,
+          "currentEquation": "-8"
+        },
+        {
+          "name": "zDist",
+          "ioValue": -20
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.4,
+      "y": 0.9,
+      "uniqueID": "id-127",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     },
@@ -329,7 +419,7 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3,
+      "x": 0.4,
       "y": 0.8,
       "uniqueID": "id-77",
       "ioValues": [
@@ -364,7 +454,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 50
+          "ioValue": 60
         }
       ]
     },
@@ -381,44 +471,6 @@
         {
           "name": "height",
           "ioValue": 5
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.4,
-      "y": 0.9,
-      "uniqueID": "id-90",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6,
-      "y": 0.8,
-      "uniqueID": "id-96",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
         }
       ]
     }
@@ -510,19 +562,9 @@
       "ap2ID": "id-78"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-77",
-      "ap2ID": "id-90"
-    },
-    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-78",
       "ap2ID": "id-100"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-90",
-      "ap2ID": "id-96"
     },
     {
       "ap2Name": "geometry",
@@ -531,8 +573,28 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-100",
+      "ap2ID": "id-115"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-105",
       "ap2ID": "id-77"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-111",
+      "ap2ID": "id-121"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-111",
+      "ap2ID": "id-127"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-115",
+      "ap2ID": "id-111"
     }
   ],
   "unitsKey": "MM",
