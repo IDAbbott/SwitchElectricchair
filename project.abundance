@@ -268,7 +268,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 90
+              "ioValue": -30
             },
             {
               "name": "yDist",
@@ -277,7 +277,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 100
+              "ioValue": 40
             }
           ]
         },
@@ -293,7 +293,7 @@
             },
             {
               "name": "height",
-              "ioValue": 50
+              "ioValue": 60
             }
           ]
         },
