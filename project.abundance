@@ -140,7 +140,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 5
             }
           ]
         },
@@ -156,10 +156,6 @@
             },
             {
               "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
               "ioValue": null
             }
           ]
@@ -231,8 +227,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5,
-          "y": 0.8,
+          "x": 0.4,
+          "y": 0.7,
           "uniqueID": "id-232",
           "ioValues": [
             {
@@ -309,10 +305,6 @@
             {
               "name": "Shape 2",
               "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
             }
           ]
         },
@@ -372,61 +364,11 @@
           "ioValues": [
             {
               "name": "number of sides",
-              "ioValue": 10
+              "ioValue": 5
             },
             {
               "name": "diameter",
-              "ioValue": 10,
-              "currentEquation": "10"
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4,
-          "y": 0.4,
-          "uniqueID": "id-396",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 6
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4,
-          "y": 0.6,
-          "uniqueID": "id-404",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": -6
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
+              "ioValue": 5
             }
           ]
         }
@@ -446,16 +388,6 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-151",
           "ap2ID": "id-250"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-151",
-          "ap2ID": "id-396"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-151",
-          "ap2ID": "id-404"
         },
         {
           "ap2Name": "geometry",
@@ -541,16 +473,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-386",
           "ap2ID": "id-233"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-396",
-          "ap2ID": "id-200"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-404",
-          "ap2ID": "id-250"
         }
       ],
       "fileTypeVersion": 1
