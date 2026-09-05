@@ -38,13 +38,14 @@
             },
             {
               "name": "y length",
-              "ioValue": 2
+              "ioValue": 2,
+              "currentEquation": "2"
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.1,
+          "x": 0.2,
           "y": 0.3,
           "uniqueID": "id-151",
           "ioValues": [
@@ -54,7 +55,7 @@
             },
             {
               "name": "height",
-              "ioValue": 25
+              "ioValue": 60
             }
           ]
         },
@@ -98,8 +99,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -119,8 +119,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -176,11 +175,12 @@
             },
             {
               "name": "yDist",
-              "ioValue": 1
+              "ioValue": 1,
+              "currentEquation": "1"
             },
             {
               "name": "zDist",
-              "ioValue": 24
+              "ioValue": 28
             }
           ]
         },
@@ -280,13 +280,11 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -356,7 +354,7 @@
         },
         {
           "atomType": "RegularPolygon",
-          "x": 0,
+          "x": 0.1,
           "y": 0.7,
           "uniqueID": "id-386",
           "ioValues": [
@@ -1127,12 +1125,7 @@
             "color": "#aad7f2",
             "tags": [],
             "bom": [],
-            "nonReplicadSerialized": [
-              {},
-              {},
-              {},
-              {}
-            ],
+            "nonReplicadSerialized": [],
             "boundingBox": {
               "min": [
                 -25.00000015000001,
@@ -1272,8 +1265,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20
             },
             {
               "name": "yDist",
@@ -1470,11 +1462,6 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-146",
-      "ap2ID": "id-268"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-268",
       "ap2ID": "id-2"
@@ -1483,6 +1470,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-268",
       "ap2ID": "id-275"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-146",
+      "ap2ID": "id-268"
     },
     {
       "ap2Name": "Shape 1",
