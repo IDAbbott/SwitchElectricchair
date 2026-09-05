@@ -76,7 +76,7 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4,
+          "x": 0.6,
           "y": 0.3,
           "uniqueID": "id-152",
           "ioValues": [
@@ -100,8 +100,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.5,
-          "y": 0.2,
+          "x": 0.7,
+          "y": 0.3,
           "uniqueID": "id-164",
           "ioValues": [
             {
@@ -141,7 +141,7 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.2,
+          "x": 0.5,
           "y": 0.5,
           "uniqueID": "id-171",
           "ioValues": [
@@ -157,7 +157,7 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4,
+          "x": 0.7,
           "y": 0.5,
           "uniqueID": "id-172",
           "ioValues": [
@@ -182,7 +182,7 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.5,
+          "x": 0.7,
           "y": 0.6,
           "uniqueID": "id-184",
           "ioValues": [
@@ -206,8 +206,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6,
-          "y": 0.4,
+          "x": 0.8,
+          "y": 0.5,
           "uniqueID": "id-190",
           "ioValues": [
             {
@@ -242,7 +242,7 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.3,
+          "x": 0.5,
           "y": 0.3,
           "uniqueID": "id-200",
           "ioValues": [
@@ -268,16 +268,16 @@
             },
             {
               "name": "xDist",
-              "ioValue": -30
+              "ioValue": -35,
+              "currentEquation": "-35"
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 2.5
             },
             {
               "name": "zDist",
-              "ioValue": 40
+              "ioValue": 49
             }
           ]
         },
@@ -318,6 +318,22 @@
             {
               "name": "z-axis degrees",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.4,
+          "y": 0.4,
+          "uniqueID": "id-227",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         }
@@ -392,6 +408,11 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-205",
           "ap2ID": "id-200"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-205",
+          "ap2ID": "id-227"
         },
         {
           "ap2Name": "geometry",
