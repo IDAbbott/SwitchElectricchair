@@ -76,7 +76,7 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3,
+          "x": 0.4,
           "y": 0.3,
           "uniqueID": "id-152",
           "ioValues": [
@@ -100,7 +100,7 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.4,
+          "x": 0.5,
           "y": 0.2,
           "uniqueID": "id-164",
           "ioValues": [
@@ -157,7 +157,7 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3,
+          "x": 0.4,
           "y": 0.5,
           "uniqueID": "id-172",
           "ioValues": [
@@ -182,7 +182,7 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.4,
+          "x": 0.5,
           "y": 0.6,
           "uniqueID": "id-184",
           "ioValues": [
@@ -206,7 +206,7 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5,
+          "x": 0.6,
           "y": 0.4,
           "uniqueID": "id-190",
           "ioValues": [
@@ -243,7 +243,7 @@
         {
           "atomType": "Assembly",
           "x": 0.3,
-          "y": 0.2,
+          "y": 0.3,
           "uniqueID": "id-200",
           "ioValues": [
             {
@@ -258,7 +258,7 @@
         },
         {
           "atomType": "Move",
-          "x": 0.2,
+          "x": 0.3,
           "y": 0.2,
           "uniqueID": "id-205",
           "ioValues": [
@@ -374,6 +374,11 @@
           "ap2ID": "id-190"
         },
         {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-190",
+          "ap2ID": "id-148"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-197",
           "ap2ID": "id-217"
@@ -384,19 +389,19 @@
           "ap2ID": "id-152"
         },
         {
-          "ap2Name": "geometry",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-205",
-          "ap2ID": "id-221"
+          "ap2ID": "id-200"
         },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-217",
-          "ap2ID": "id-205"
+          "ap2ID": "id-221"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
           "ap1ID": "id-221",
-          "ap2ID": "id-200"
+          "ap2ID": "id-205"
         }
       ],
       "fileTypeVersion": 1
