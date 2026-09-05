@@ -38,7 +38,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 5
+              "ioValue": 3
             }
           ]
         },
@@ -492,7 +492,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-cut-cut-cut-extrude-rectangle-50-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--20-45-0-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-20-45-0-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-20--45-0-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--20--45-0",
+            "geometry": "cut-cut-cut-cut-extrude-rectangle-50-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--20-45-0-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-20-45-0-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-20--45-0-move-extrude-circle-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--20--45-0",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -523,7 +523,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "rotate-move-cut-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25-3-49-extrude-rectangle-50-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0-0-0-180",
+                    "geometry": "rotate-move-cut-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25-3-49-extrude-rectangle-50-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0-0-0-180",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -553,13 +553,13 @@
                       ],
                       "max": [
                         25.00000009999999,
-                        -73.1010204144336,
+                        -72.9999999,
                         54.00000010000001
                       ]
                     }
                   },
                   {
-                    "geometry": "rotate-move-extrude-rectangle-50-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0-0-0-180",
+                    "geometry": "rotate-move-extrude-rectangle-50-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0-0-0-180",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -584,12 +584,12 @@
                     "boundingBox": {
                       "min": [
                         -25.000000100000012,
-                        -77.5000001,
+                        -76.5000001,
                         -1e-7
                       ],
                       "max": [
-                        25.000000099999994,
-                        -72.4999999,
+                        25.00000009999999,
+                        -73.4999999,
                         50.0000001
                       ]
                     }
@@ -623,8 +623,8 @@
                     -1e-7
                   ],
                   "max": [
-                    25.000000099999994,
-                    -72.4999999,
+                    25.00000009999999,
+                    -72.9999999,
                     54.00000010000001
                   ]
                 }
@@ -632,7 +632,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-cut-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25-3-49-extrude-rectangle-50-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0",
+                    "geometry": "move-cut-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25-3-49-extrude-rectangle-50-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -657,7 +657,7 @@
                     "boundingBox": {
                       "min": [
                         -25.0000001,
-                        73.1010204144336,
+                        72.9999999,
                         43.9999999
                       ],
                       "max": [
@@ -668,7 +668,7 @@
                     }
                   },
                   {
-                    "geometry": "move-extrude-rectangle-50-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0",
+                    "geometry": "move-extrude-rectangle-50-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-75-0",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -693,12 +693,12 @@
                     "boundingBox": {
                       "min": [
                         -25.0000001,
-                        72.4999999,
+                        73.4999999,
                         -1e-7
                       ],
                       "max": [
                         25.0000001,
-                        77.5000001,
+                        76.5000001,
                         50.0000001
                       ]
                     }
@@ -728,7 +728,7 @@
                 "boundingBox": {
                   "min": [
                     -25.0000001,
-                    72.4999999,
+                    72.9999999,
                     -1e-7
                   ],
                   "max": [
@@ -741,7 +741,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-cut-extrude-rectangle-50-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25--3-49-0-65-0",
+                    "geometry": "move-cut-extrude-rectangle-50-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25--3-49-0-65-0",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -766,13 +766,13 @@
                     "boundingBox": {
                       "min": [
                         -25.0000001,
-                        62.49999989999992,
+                        63.4999999,
                         -1e-7
                       ],
                       "max": [
                         25.0000001,
-                        67.5000001,
-                        50.00000010000001
+                        66.5000001,
+                        46.82055062822967
                       ]
                     }
                   },
@@ -842,7 +842,7 @@
                   ],
                   "max": [
                     25.0000001,
-                    67.5000001,
+                    67.0000001,
                     54.00000010000001
                   ]
                 }
@@ -850,7 +850,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "rotate-move-cut-extrude-rectangle-50-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25--3-49-0-65-0-0-0-180",
+                    "geometry": "rotate-move-cut-extrude-rectangle-50-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-move-rotate-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-0-90-0--25--3-49-0-65-0-0-0-180",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -875,13 +875,13 @@
                     "boundingBox": {
                       "min": [
                         -25.00000010000001,
-                        -67.5000001,
+                        -66.5000001,
                         -1e-7
                       ],
                       "max": [
                         25.000000099999994,
-                        -62.499999899999914,
-                        50.00000010000001
+                        -63.49999989999999,
+                        46.82055062822967
                       ]
                     }
                   },
@@ -946,7 +946,7 @@
                 "boundingBox": {
                   "min": [
                     -25.00000010000001,
-                    -67.5000001,
+                    -67.0000001,
                     -1e-7
                   ],
                   "max": [
@@ -1078,7 +1078,7 @@
             },
             {
               "name": "height",
-              "ioValue": 5
+              "ioValue": 3
             }
           ]
         },
