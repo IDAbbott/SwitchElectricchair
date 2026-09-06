@@ -2485,6 +2485,71 @@
       "topLevel": false,
       "allAtoms": [
         {
+          "atomType": "Assembly",
+          "x": 0.4,
+          "y": 0.7,
+          "uniqueID": "id-1001",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.7,
+          "uniqueID": "id-1005",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 125
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.2,
+          "y": 0.8,
+          "uniqueID": "id-1011",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -120
+            },
+            {
+              "name": "yDist",
+              "ioValue": 10
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
           "atomType": "Output",
           "x": 1,
           "y": 0.5,
@@ -2514,8 +2579,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2,
-          "y": 0.5,
+          "x": 0.1,
+          "y": 0.4,
           "uniqueID": "id-964",
           "ioValues": [
             {
@@ -2527,7 +2592,7 @@
         {
           "atomType": "Move",
           "x": 0.3,
-          "y": 0.5,
+          "y": 0.4,
           "uniqueID": "id-967",
           "ioValues": [
             {
@@ -2552,7 +2617,7 @@
         {
           "atomType": "Circle",
           "x": 0.1,
-          "y": 0.7,
+          "y": 0.6,
           "uniqueID": "id-973",
           "ioValues": [
             {
@@ -2564,7 +2629,7 @@
         {
           "atomType": "Move",
           "x": 0.3,
-          "y": 0.7,
+          "y": 0.6,
           "uniqueID": "id-976",
           "ioValues": [
             {
@@ -2723,7 +2788,7 @@
         {
           "atomType": "Circle",
           "x": 0.1,
-          "y": 0.8,
+          "y": 0.7,
           "uniqueID": "id-994",
           "ioValues": [
             {
@@ -2734,8 +2799,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.2,
-          "y": 0.8,
+          "x": 0.5,
+          "y": 0.6,
           "uniqueID": "id-997",
           "ioValues": [
             {
@@ -2771,11 +2836,6 @@
           "ap2ID": "id-976"
         },
         {
-          "ap2Name": "retain",
-          "ap1ID": "id-973",
-          "ap2ID": "id-997"
-        },
-        {
           "ap2Name": "Shape 3",
           "ap1ID": "id-976",
           "ap2ID": "id-982"
@@ -2786,11 +2846,40 @@
           "ap2ID": "id-958"
         },
         {
+          "ap2Name": "retain",
+          "ap1ID": "id-982",
+          "ap2ID": "id-997"
+        },
+        {
           "ap2Name": "Shape 1",
           "ap1ID": "id-988",
           "ap2ID": "id-982"
         },
-        null
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-994",
+          "ap2ID": "id-1005"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-994",
+          "ap2ID": "id-1011"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-1001",
+          "ap2ID": "id-997"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-1005",
+          "ap2ID": "id-1001"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-1011",
+          "ap2ID": "id-1001"
+        }
       ],
       "fileTypeVersion": 1
     }
