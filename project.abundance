@@ -2536,7 +2536,179 @@
             },
             {
               "name": "xDist",
+              "ioValue": -125
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1,
+          "y": 0.7,
+          "uniqueID": "id-973",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 30
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.7,
+          "uniqueID": "id-976",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 125
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "ShrinkWrap",
+          "x": 0.5,
+          "y": 0.5,
+          "uniqueID": "id-982",
+          "name": "Shrink Wrap",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-rectangle-50-50--20-0-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-circle-25--125-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "move-circle-15-125-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.3,
+          "uniqueID": "id-988",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -20
             },
             {
               "name": "yDist",
@@ -2547,14 +2719,78 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1,
+          "y": 0.8,
+          "uniqueID": "id-994",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 4.5
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.2,
+          "y": 0.8,
+          "uniqueID": "id-997",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-960",
+          "ap2ID": "id-988"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-964",
           "ap2ID": "id-967"
-        }
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-967",
+          "ap2ID": "id-982"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-973",
+          "ap2ID": "id-976"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-973",
+          "ap2ID": "id-997"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-976",
+          "ap2ID": "id-982"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-982",
+          "ap2ID": "id-958"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-988",
+          "ap2ID": "id-982"
+        },
+        null
       ],
       "fileTypeVersion": 1
     }
