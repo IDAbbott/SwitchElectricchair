@@ -7,6 +7,36 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Export",
+      "x": 0.4,
+      "y": 0.8,
+      "uniqueID": "id-1039",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "SwitchArm",
+          "currentEquation": "SwitchArm"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "SwitchArm"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.2,
       "y": 0.3,
@@ -2497,6 +2527,18 @@
             {
               "name": "Shape 2",
               "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
             }
           ]
         },
@@ -2550,6 +2592,80 @@
           ]
         },
         {
+          "atomType": "Move",
+          "x": 0.1,
+          "y": 1,
+          "uniqueID": "id-1018",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -120
+            },
+            {
+              "name": "yDist",
+              "ioValue": -10
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.2,
+          "y": 0.9,
+          "uniqueID": "id-1024",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -135
+            },
+            {
+              "name": "yDist",
+              "ioValue": -10
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.2,
+          "y": 0.9,
+          "uniqueID": "id-1030",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -135
+            },
+            {
+              "name": "yDist",
+              "ioValue": 10,
+              "currentEquation": "10"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
           "atomType": "Output",
           "x": 1,
           "y": 0.5,
@@ -2585,7 +2701,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 50
+              "ioValue": 45
             }
           ]
         },
@@ -2704,7 +2820,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-25--125-0-0",
+                "geometry": "move-circle-22.5--125-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2841,11 +2957,6 @@
           "ap2ID": "id-982"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-982",
-          "ap2ID": "id-958"
-        },
-        {
           "ap2Name": "retain",
           "ap1ID": "id-982",
           "ap2ID": "id-997"
@@ -2866,6 +2977,26 @@
           "ap2ID": "id-1011"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-994",
+          "ap2ID": "id-1018"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-994",
+          "ap2ID": "id-1024"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-994",
+          "ap2ID": "id-1030"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-997",
+          "ap2ID": "id-958"
+        },
+        {
           "ap2Name": "remove",
           "ap1ID": "id-1001",
           "ap2ID": "id-997"
@@ -2878,6 +3009,21 @@
         {
           "ap2Name": "Shape 2",
           "ap1ID": "id-1011",
+          "ap2ID": "id-1001"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-1018",
+          "ap2ID": "id-1001"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-1024",
+          "ap2ID": "id-1001"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1030",
           "ap2ID": "id-1001"
         }
       ],
@@ -2909,6 +3055,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-517",
       "ap2ID": "id-714"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-956",
+      "ap2ID": "id-1039"
     }
   ],
   "unitsKey": "MM",
