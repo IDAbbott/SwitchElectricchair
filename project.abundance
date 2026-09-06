@@ -2666,6 +2666,22 @@
           ]
         },
         {
+          "atomType": "Extrude",
+          "x": 0.7,
+          "y": 0.6,
+          "uniqueID": "id-1044",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
           "atomType": "Output",
           "x": 1,
           "y": 0.5,
@@ -2915,7 +2931,7 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5,
+          "x": 0.6,
           "y": 0.6,
           "uniqueID": "id-997",
           "ioValues": [
@@ -2995,6 +3011,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-997",
           "ap2ID": "id-958"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-997",
+          "ap2ID": "id-1044"
         },
         {
           "ap2Name": "remove",
