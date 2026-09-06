@@ -18,8 +18,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -31,7 +31,7 @@
           "currentEquation": "SwitchArm"
         }
       ],
-      "type": "STL",
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "SwitchArm"
@@ -2677,7 +2677,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 6
             }
           ]
         },
@@ -3008,11 +3008,6 @@
           "ap2ID": "id-1030"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-997",
-          "ap2ID": "id-958"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-997",
           "ap2ID": "id-1044"
@@ -3046,6 +3041,11 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-1030",
           "ap2ID": "id-1001"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1044",
+          "ap2ID": "id-958"
         }
       ],
       "fileTypeVersion": 1
