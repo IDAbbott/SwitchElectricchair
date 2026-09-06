@@ -1631,8 +1631,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 40
             },
             {
               "name": "y length",
@@ -1642,8 +1641,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.4,
-          "y": 0.4,
+          "x": 0.3,
+          "y": 0.5,
           "uniqueID": "id-522",
           "ioValues": [
             {
@@ -1768,7 +1767,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -25
+              "ioValue": -20
             },
             {
               "name": "yDist",
@@ -1792,7 +1791,7 @@
             },
             {
               "name": "height",
-              "ioValue": 50
+              "ioValue": 40
             }
           ]
         },
@@ -1948,7 +1947,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 20
+              "ioValue": 40
             }
           ]
         },
@@ -1980,15 +1979,32 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 90
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0
+              "ioValue": 90
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.4,
+          "y": 0.3,
+          "uniqueID": "id-615",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         }
@@ -2008,6 +2024,11 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-522",
           "ap2ID": "id-534"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-522",
+          "ap2ID": "id-615"
         },
         {
           "ap2Name": "geometry",
@@ -2078,6 +2099,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-605",
           "ap2ID": "id-609"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-609",
+          "ap2ID": "id-615"
         }
       ],
       "fileTypeVersion": 1
