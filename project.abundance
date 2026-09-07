@@ -2511,7 +2511,7 @@
       "x": 0.3,
       "y": 0.7,
       "uniqueID": "id-956",
-      "name": "Molecule",
+      "name": "SwArm",
       "topLevel": false,
       "allAtoms": [
         {
@@ -2694,22 +2694,6 @@
           ]
         },
         {
-          "atomType": "Rectangle",
-          "x": 0.2,
-          "y": 0.3,
-          "uniqueID": "id-960",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 50
-            },
-            {
-              "name": "y length",
-              "ioValue": 50
-            }
-          ]
-        },
-        {
           "atomType": "Circle",
           "x": 0.1,
           "y": 0.4,
@@ -2791,10 +2775,6 @@
           "name": "Shrink Wrap",
           "ioValues": [
             {
-              "name": "Shape 1",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
               "name": "Shape 2",
               "ioValue": "__GEOMETRY_INPUT__"
             },
@@ -2805,33 +2785,6 @@
             {
               "name": "Shape 4",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-rectangle-50-50--20-0-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
             },
             {
               "name": "Shape 2",
@@ -2894,30 +2847,6 @@
           ]
         },
         {
-          "atomType": "Move",
-          "x": 0.3,
-          "y": 0.3,
-          "uniqueID": "id-988",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": -20
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
           "atomType": "Circle",
           "x": 0.1,
           "y": 0.7,
@@ -2949,11 +2878,6 @@
       "allConnectors": [
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-960",
-          "ap2ID": "id-988"
-        },
-        {
-          "ap2Name": "geometry",
           "ap1ID": "id-964",
           "ap2ID": "id-967"
         },
@@ -2976,11 +2900,6 @@
           "ap2Name": "retain",
           "ap1ID": "id-982",
           "ap2ID": "id-997"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-988",
-          "ap2ID": "id-982"
         },
         {
           "ap2Name": "geometry",
